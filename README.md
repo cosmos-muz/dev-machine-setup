@@ -4,7 +4,7 @@ This is a quick checklist for setting up a machine
 # iTerm
 
 - ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-- brew cask install iterm2
+- brew install --cask iterm2
 - brew install zsh
 - sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 - git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
@@ -21,7 +21,7 @@ This is a quick checklist for setting up a machine
 # Font:
 
 - brew tap homebrew/cask-fonts
-- brew cask install font-fira-code
+- brew install --cask font-fira-code
 - Navigate to ITerm2 | Preferences | Profiles | Text
 - Change font to fira code
 - Select Use Ligatures
