@@ -71,17 +71,20 @@
 
 # PR Review Guidelines
 
-- **Understand the intent:** Understand what the PR is trying to solve before reviewing the implementation.
-- **Consider the bigger picture:** Look beyond the changed code and consider its impact on existing behaviour and other parts of the system.
-- **Focus on what matters:** Prioritise correctness, maintainability, simplicity and potential regressions over personal preferences.
-- **Be open-minded:** Different approaches can be equally valid. Avoid requesting changes simply because you would have done things differently.
-- **Be constructive:** Explain the reasoning behind feedback. Ask questions rather than make assumptions.
-- **Distinguish feedback:** Make it clear whether a comment is a blocking issue, suggestion, question or minor observation.
-- **Respect each other:** Be open to discussion, consider different perspectives and be willing to reconsider your own suggestions.
-- **Avoid unnecessary scope:** Do not introduce unrelated improvements or complexity unless necessary.
-- **Approve with confidence, not perfection:** A PR does not need to be perfect; it needs to be correct, maintainable and safe to merge.
+- **Understand the intent:** Review the purpose of the PR before evaluating the implementation.
+- **Gather context proportionately:** Start with the PR diff. Explore surrounding code only when necessary to understand behaviour, validate assumptions or assess risks.
+- **Focus on what matters:** Prioritise correctness, maintainability, simplicity and potential regressions.
+- **Avoid assumptions:** Verify concerns against the codebase before presenting them as issues.
+- **Be open-minded:** Different approaches can be equally valid. Avoid imposing personal preferences.
+- **Be constructive:** Explain why something matters. Distinguish blocking issues, suggestions, questions and minor observations.
+- **Stay within scope:** Avoid unrelated refactoring, unnecessary abstractions or hypothetical improvements.
+- **Approve with confidence, not perfection:** Do not block a reasonable solution simply because a better alternative might exist.
 
-**Guiding principle:** Review with curiosity, humility and mutual respect. The goal is to improve the software together, not to prove who is right.
+## Guiding Principle
+
+Review with curiosity, humility and mutual respect.
+
+Be thorough where it matters, efficient where it doesn't.
 
 ---
 
